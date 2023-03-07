@@ -1,4 +1,26 @@
+/*
+Primary Color #008B8B
+*/
+
+/*  ---------------Box Sizing-----------------  */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  /*  --------------- Global Styles -----------------  */
 body{
-    background-color: darkcyan;
+    background-color: #008B8B;
     font-family: 'Golos Text', sans-serif;
+}
+
+header.primary{
+    background-color: #8abad6;
+    text-align:center;
+    color:#ffffff;
 }
