@@ -17,10 +17,22 @@ html {
 body{
     background-color: #008B8B;
     font-family: 'Golos Text', sans-serif;
+    margin:0;
 }
 
 header.primary{
     background-color: #8abad6;
     text-align:center;
     color:#ffffff;
+    padding:40px;
+    /*long form*/
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  /* T,R,B,L */
+  padding: 20px 40px 20px 40px;
+  /* Two Value Top/Bottom / L/R */
+  padding: 20px 40px;
+  text-shadow:1px 1px #000000;
 }
