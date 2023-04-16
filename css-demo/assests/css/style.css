@@ -75,5 +75,11 @@ header.primary nav ul li a{
   background-color:rgba(0,0,0,.5);
   padding:8px 16px;
   border-radius:4px;
-border: 2px rgba(0,0,0,.5);
+  border: 2px rgba(0,0,0,.5);
+  transition: 0.5s;
+}
+
+header.primary nav ul li a:hover
+header.primary nav ul li a:active {
+background: rgba(0, 0, 0, .8);
 }
