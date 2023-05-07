@@ -1,0 +1,205 @@
+/*  ---------------Box Sizing-----------------  */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.container{
+  width:80vw;
+  max-width:960px;
+  margin: 40px auto;
+}
+
+/* Responsive Image */
+img{
+  max-width:40%;
+  height:auto;
+  padding:3px;
+  margin:10px 0 10px 20px;
+}
+
+article p {
+  line-height:1.5em;
+  font-size:.15em;
+}
+
+body{
+  font-family: 'Golos Text', sans-serif;
+font-family: 'Oswald', sans-serif;
+}
+
+header.primary{
+  background-image: url(https://spaceexplored.com/wp-content/uploads/sites/10/2022/05/SpaceX-Dragon-heat-shield-anomoly.jpg);
+  background-size: 100%;
+  text-align:center;
+  color:#f3f2f5;
+  text-shadow:3px 3px #1d1135;
+  /* Longform */
+  padding-top:40px;
+  padding-right:40px;
+  padding-bottom:40px;
+  padding-left:40px;
+  /*Shorthand Differnt Values  Top / Right /Bottom /Left*/
+  padding: 40px 40px 60px 40px;
+  /*Shorthand Same Values*/
+  padding:40px;
+}
+
+header.primary h1{
+  font-size: 4em;
+  margin: 20px 0;
+}
+
+header.primary h1 a{
+  text-decoration:none;
+  color: #f3f2f5;
+}
+
+
+header.primary nav{
+  margin: 20px auto;
+  width: 80vw;
+  max-width:1000px
+}
+
+header.primary nav ul{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  padding:0;
+}
+
+header.primary ul li{
+  list-style-type:none;
+  padding:10px;
+}
+
+header.primary nav a:link, header.primary nav a:visited{
+  color: #f3f2f5;
+  text-decoration:none;
+  background:#000000;
+  background: rgba(0,0,0,.7);
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition:.6s;
+}
+
+header.primary nav a:hover{
+  background: rgba(0,0,0,.8);
+}
+
+#intro{
+  border-bottom: 1px solid rgb(54, 54, 54);
+  padding-bottom: 1.5em;
+}
+
+#intro h3{
+  color: #1d1135;
+  font-size:1.5em;
+}
+
+#intro p{
+  line-height: 1.5em;
+  font-size:1em;
+}
+
+#content {
+  flex-direction:row;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 2em;
+}
+
+
+#content p{
+  line-height: 1.5em;
+  font-size:1em;
+}
+
+#content h4{
+  font-size:1.4em;
+  color: #1d1135;
+}
+
+
+#content img{
+  max-width:50%;
+}
+
+
+table{
+  width:100%;
+  border:1px solid #000000;
+  border-collapse: collapse;
+}
+
+table caption{
+color:black;
+font-weight:bold;
+padding:10px;
+}
+
+table tr:nth-child(even){
+  background-color:rgba(0,0,0,.05);
+}
+table tr:hover{
+  background-color:rgba(0,0,0,.2);
+}
+table th{
+  background-color:#0c164f;
+  color:#f3f2f5;
+  width:33%;
+  padding:10px;
+  border:1px solid #000000;
+}
+table td{
+  border:1px solid #000000;
+  padding:5px;
+}
+
+
+details {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+}
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+
+details[open] {
+  padding: 0.5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.5em;
+}
+
+.two-col{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+}
+
+#colophon{
+  background-color: #030107;
+background-image: url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+}
+
+#colophon h6{
+ padding:20px;
+ margin:0;
+ text-align:center;
+ color:#f3f2f5;
+ font-size:1em;
+ text-transform:uppercase;
+}
+
+

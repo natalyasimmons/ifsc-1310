@@ -89,16 +89,12 @@ ol{
   list-style-type:upper-roman;
 }
 
-li{
-
-}
-
 ul ul{
   list-style-type:square;
   color: #400000;
 }
 
-dl{}
+
 
 dt{
   font-weight:bold;
